@@ -1,84 +1,150 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <naw>
-            <a href="/">WebStudio</a>
-    
-            <ul>
-              <li><a href="">Студія</a></li>
-              <li><a href="">Портфоліо</a></li>
-              <li><a href="">Контакти</a></li>
-            </ul>
-          </naw>
-          <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
-          </ul>
+  </head>
+  <body class="page-body">
+    <header class="page-header">
+      <naw>
+        <a href="/" class="logo">WebStudio</a>
+
+        <ul class="header-list">
+          <li class="header-item"><a href="">Студія</a></li>
+          <li class="header-item"><a href="/">Портфоліо</a></li>
+          <li class="header-item"><a href="">Контакти</a></li>
+        </ul>
+      </naw>
+      <ul class="info-list">
+        <li><a href="mailto:info@devstudio.com" class="contact-info">info@devstudio.com</a></li>
+        <li><a href="tel:+38 096 111 11 11" class="contact-info">+38 096 111 11 11</a></li>
+      </ul>
     </header>
     <main>
-        <section>
-            <ul>
-                <li>Усі</li>
-                <li>Веб-сайти</li>
-                <li>Додатки</li>
-                <li>Дизайн</li>
-                <li>Маркетинг</li>
-            </ul>
-        </section>
-        <section>
-            
-            <ul>
-                <li>
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                    <img
-                    src="./images/img-p1.jpg"
-                    alt="Ноутбук з відкритим вебсайтом"
-                    width="370"
-                    height="294"
-                    >
-                </li>
-                <li>
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <h3>Ресторан Seafood</h3>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <h3>Проєкт Prime</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <h3>Проєкт Boxes</h3>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <h3>Видання Limited Edition</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <h3>Проєкт LAB</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <h3>Growing Business</h3>
-                    <p>Додаток</p>
-                </li>
-            </ul>
-        </section>
+      <section class="work-type">
+        <ul class="work-list">
+          <li class="work-item"><button type="button">Усі</button></li>
+          <li class="work-item"><button type="button">Веб-сайти</button></li>
+          <li class="work-item"><button type="button">Додатки</button></li>
+          <li class="work-item"><button type="button">Дизайн</button></li>
+          <li class="work-item"><button type="button">Маркетинг</button></li>
+        </ul>
+      </section>
+      <section class="work-examples">
+        <ul class="examples-list">
+          <li class="example">
+            <h3 class="example-name">Технокряк</h3>
+            <p class="example-type">Веб-сайт</p>
+            <img
+              src="./images/img-p1.jpg"
+              alt="Ноутбук з відкритим вебсайтом"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Постер New Orlean vs Golden Star</h3>
+            <p class="example-type">Дизайн</p>
+            <img
+              src="./images/img-p2.jpg"
+              alt="Постер двох баскетболістів"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Ресторан Seafood</h3>
+            <p class="example-type">Додаток</p>
+            <img
+              src="./images/img-p3.jpg"
+              alt="Логотип у вигляді риби"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Проєкт Prime</h3>
+            <p class="example-type">Маркетинг</p>
+            <img
+              src="./images/img-p4.jpg"
+              alt="Зображення навушників"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Проєкт Boxes</h3>
+            <p class="example-type">Додаток</p>
+            <img
+              src="./images/img-p5.jpg"
+              alt="Зображення двох коробок"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Inspiration has no Borders</h3>
+            <p class="example-type">Веб-сайт</p>
+            <img
+              src="./images/img-p6.jpg"
+              alt="Монітор з відкритим вебсайтом"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Видання Limited Edition</h3>
+            <p class="example-type">Дизайн</p>
+            <img
+              src="./images/img-p7.jpg"
+              alt="Книжка з картинками"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Проєкт LAB</h3>
+            <p class="example-type">Маркетинг</p>
+            <img
+              src="./images/img-p8.jpg"
+              alt="Бірка назвою компанії"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+          <li class="example">
+            <h3 class="example-name">Growing Business</h3>
+            <p class="example-type">Додаток</p>
+            <img
+              src="./images/img-p9.jpg"
+              alt="Ноутбук з відкритим додатком"
+              width="370"
+              height="294"
+              class="photo-type"
+            />
+          </li>
+        </ul>
+      </section>
     </main>
-</body>
+    <footer>
+      <a href="/">WebStudio</a>
+
+      <address>
+        <p>м. Київ, пр-т Лесі Українки, 26</p>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+        <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+      </address>
+    </footer>
+  </body>
 </html>
