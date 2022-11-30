@@ -6,6 +6,8 @@
 /* Header */
 .page-header
 {
+    width: 1600px;
+height: 80px;
     background: #FFFFFF;
    
 }
@@ -21,11 +23,16 @@ line-height: 31px;
 .blue-logo
 {
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-color: #2196F3;
-font-size: 26px;
-line-height: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+   
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+    
 }
 .header-item:hover,
 .header-item:focus
@@ -60,33 +67,45 @@ letter-spacing: 0.02em;
 color: #2196F3;
 }
 /* work-type */
-.work-type
+.work
 {
     background: #F5F5F5;
 }
-.work-button
+.first-button
 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+    width: 73px;
+    height: 38px;
+    background: #F5F4FA;
 }
-.work-type:hover
+.second-button
 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #FFFFFF;
+width: 125px;
+height: 38px;
+background: #F5F4FA;
+}
+.third-button
+{
+width: 112px;
+height: 38px;
+background: #F5F4FA;
+}
+.fourth-button
+{
+width: 103px;
+height: 38px;
+background: #F5F4FA;
+}
+.fifth-button
+{
+width: 130px;
+height: 38px;
+background: #F5F4FA;
+}
+.first-button:hover
+{
+    width: 73px;
+    height: 38px;
+    background: #2196F3; 
 }
 .button-text
 {
@@ -114,13 +133,13 @@ color: #212121;
     color: #FFFFFF;
 
 }
-.button:hover 
+
+
+.example
 {
-    background: #2196F3;
-}
-.work-examples
-{
-    background: #F5F5F5;
+    width: 370px;
+height: 404px;
+background: #FFFFFF;
 }
 .photo-type
 {
@@ -157,11 +176,9 @@ color: #757575;
 .foot
 {
     width: 1600px;
-height: 252px;
-left: 0px;
-top: 1628px;
+    height: 252px;
 
-background: #2F303A;
+    background: #2F303A;
 }
 .foot-logo
 {
