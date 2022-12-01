@@ -19,6 +19,7 @@ font-weight: 700;
 color: #000000;
 font-size: 26px;
 line-height: 31px;
+text-decoration: none
 }
 .blue-logo
 {
@@ -32,6 +33,7 @@ line-height: 31px;
     letter-spacing: 0.03em;
     
     color: #2196F3;
+    text-decoration: none
     
 }
 .header-item:hover,
@@ -192,6 +194,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 
 color: #2196F3;
+text-decoration: none
 
 }
 .white-logo
@@ -205,6 +208,7 @@ line-height: 31px;
 
 letter-spacing: 0.03em;
 color: #FFFFFF;
+text-decoration: none
 }
 .location
 {
