@@ -1,192 +1,185 @@
+:root {
+  --black-brand-color: #2E2F42;
+  --blue-brand-color: #4D5AE5;
+  --white-brand-color: #F4F4FD;
+  --text-color: #434455;
+  --back-color:#FFFFFF;
+  --header-back-color:#E5E5E5;
+  --foot-color:#2E2F42; 
+  --foot-text-color: #E7E9FC;
+
+}
 .page-body {
-  background: #f5f5f5;
+  background: var(--back-color);
+  font-family: sans-serif;
+  font-family: 'Roboto';
+    font-style: normal;
 }
 /* Header */
 .page-header {
-  width: 1600px;
+ 
   height: 80px;
-  background: #ffffff;
+  background: var(--header-back-color);
+ 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .logo {
-  font-family: "Raleway";
+  width: 44px;
+  height: 24px;
+  font-family: 'Raleway';
   font-style: normal;
-  font-weight: 700;
-  color: #000000;
-  font-size: 26px;
-  line-height: 31px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  color:var(--black-brand-color);
+
   text-decoration: none;
 }
 .blue-logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
+    width: 44px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
 
-  letter-spacing: 0.03em;
+  
 
-  color: #2196f3;
+  color: var(--blue-brand-color);
   text-decoration: none;
 }
 .header-item:hover,
 .header-item:focus {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+  
+  color: var(--black-brand-color);
 }
 .contact-info {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
+ 
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+  color: var(--text-color);
 }
 .contact-info:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
+  color: var(--blue-brand-color);
 }
 /* work-type */
 .work {
-  background: #f5f5f5;
+  background: var(--back-color);
 }
 .first-button {
   width: 73px;
   height: 38px;
-  background: #f5f4fa;
+  color: var(--white-brand-color);
+  cursor: pointer;
 }
 .second-button {
   width: 125px;
   height: 38px;
-  background: #f5f4fa;
+color: var(--white-brand-color);
+cursor: pointer;
 }
 .third-button {
   width: 112px;
   height: 38px;
-  background: #f5f4fa;
+  color: var(--white-brand-color);
+  cursor: pointer;
 }
 .fourth-button {
   width: 103px;
   height: 38px;
-  background: #f5f4fa;
+color: var(--white-brand-color);
+cursor: pointer;
 }
 .fifth-button {
   width: 130px;
   height: 38px;
-  background: #f5f4fa;
+color: var(--white-brand-color);
+cursor: pointer;
+
 }
 .first-button:hover {
   width: 73px;
   height: 38px;
-  background: #2196f3;
+  color: var(--blue-brand-color);
 }
 .button-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
+font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.03em;
+  
 
-  color: #212121;
+  color: var(--blue-brand-color);
 }
 .button-text:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+ 
+  color: var(--back-color);
 }
 
 .example {
-  width: 370px;
-  height: 404px;
-  background: #ffffff;
+width: 360px;
+  height: 420px;
+  background: var(--back-color);
 }
 .photo-type {
-  width: 370px;
-  height: 294px;
+width: 360px;
+  height: 300px;
 }
 .example-name {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
 
-  letter-spacing: 0.06em;
+font-weight: 500;
+  font-size: 20px;
+  line-height: 1.14;
 
-  color: #212121;
+  
+
+  color: var(--black-brand-color);
 }
 .example-type {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 188% */
+    font-size: 16px;
+    line-height: 1.5;
 
-  letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--text-color);
 }
+/*footer*/
 .foot {
-  width: 1600px;
+
   height: 252px;
 
-  background: #2f303a;
+  background: var(--foot-color);
 }
 .foot-logo {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+ 
 
-  letter-spacing: 0.03em;
+  
 
-  color: #2196f3;
-  text-decoration: none;
+  color: var(--blue-brand-color);
+ 
 }
 .white-logo {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+  color: var(--white-brand-color);
+  
 }
 .location {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  font-size: 16px;
+  line-height: 1.5;
 
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
+  color: var(--foot-text-color);
 }
