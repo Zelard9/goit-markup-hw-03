@@ -1,67 +1,61 @@
 :root {
-  --black-brand-color: #2E2F42;
-  --blue-brand-color: #4D5AE5;
-  --white-brand-color: #F4F4FD;
+  --black-brand-color: #2e2f42;
+  --blue-brand-color: #4d5ae5;
+  --white-brand-color: #f4f4fd;
   --text-color: #434455;
-  --back-color:#FFFFFF;
-  --header-back-color:#E5E5E5;
-  --foot-color:#2E2F42; 
-  --foot-text-color: #E7E9FC;
-
+  --back-color: #ffffff;
+  --header-back-color: #e5e5e5;
+  --foot-color: #2e2f42;
+  --foot-text-color: #e7e9fc;
 }
 .page-body {
   background: var(--back-color);
   font-family: sans-serif;
-  font-family: 'Roboto';
-    font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
 }
 /* Header */
 .page-header {
- 
   height: 80px;
   background: var(--header-back-color);
- 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .logo {
   width: 44px;
   height: 24px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
 
-  color:var(--black-brand-color);
+  color: var(--black-brand-color);
 
   text-decoration: none;
 }
 .blue-logo {
-    width: 44px;
-    height: 24px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-
-  
+  width: 44px;
+  height: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
 
   color: var(--blue-brand-color);
   text-decoration: none;
 }
 .header-item:hover,
 .header-item:focus {
-  
   color: var(--black-brand-color);
 }
 .contact-info {
- 
- font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--text-color);
 }
 .contact-info:hover {
@@ -80,8 +74,8 @@ line-height: 1.5;
 .second-button {
   width: 125px;
   height: 38px;
-color: var(--white-brand-color);
-cursor: pointer;
+  color: var(--white-brand-color);
+  cursor: pointer;
 }
 .third-button {
   width: 112px;
@@ -92,15 +86,14 @@ cursor: pointer;
 .fourth-button {
   width: 103px;
   height: 38px;
-color: var(--white-brand-color);
-cursor: pointer;
+  color: var(--white-brand-color);
+  cursor: pointer;
 }
 .fifth-button {
   width: 130px;
   height: 38px;
-color: var(--white-brand-color);
-cursor: pointer;
-
+  color: var(--white-brand-color);
+  cursor: pointer;
 }
 .first-button:hover {
   width: 73px;
@@ -108,48 +101,42 @@ cursor: pointer;
   color: var(--blue-brand-color);
 }
 .button-text {
-font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  
 
   color: var(--blue-brand-color);
 }
 .button-text:hover {
- 
   color: var(--back-color);
 }
 
 .example {
-width: 360px;
+  width: 360px;
   height: 420px;
   background: var(--back-color);
 }
 .photo-type {
-width: 360px;
+  width: 360px;
   height: 300px;
 }
 .example-name {
-
-font-weight: 500;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.14;
-
-  
 
   color: var(--black-brand-color);
 }
 .example-type {
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.5;
 
   color: var(--text-color);
 }
 /*footer*/
 .foot {
-
   height: 252px;
 
   background: var(--foot-color);
@@ -157,24 +144,19 @@ font-weight: 500;
 .foot-logo {
   font-family: "Raleway";
   font-style: normal;
-font-weight: 800;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
- 
-
-  
 
   color: var(--blue-brand-color);
- 
 }
 .white-logo {
   font-family: "Raleway";
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
   color: var(--white-brand-color);
-  
 }
 .location {
   font-weight: 400;
