@@ -61,6 +61,18 @@
 .contact-info:hover {
   color: var(--blue-brand-color);
 }
+.publicity-sec{
+height: 600px;
+background: var(--foot-color);
+
+}
+.publicity-text{
+  font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--back-color);
+    text-align: center;
+}
 /* work-type */
 .work {
   background: var(--back-color);
