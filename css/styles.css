@@ -7,6 +7,7 @@
   --header-back-color: #e5e5e5;
   --foot-color: #2e2f42;
   --foot-text-color: #e7e9fc;
+  --order-but-color: #404bbf;
 }
 .page-body {
   background: var(--back-color);
@@ -61,18 +62,33 @@
 .contact-info:hover {
   color: var(--blue-brand-color);
 }
-.publicity-sec{
-height: 600px;
-background: var(--foot-color);
-
+.publicity-sec {
+  height: 600px;
+  background: var(--foot-color);
 }
-.publicity-text{
+.publicity-text {
   font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    color: var(--back-color);
-    text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--back-color);
+  text-align: center;
 }
+.publicity-button {
+  width: 169px;
+  height: 56px;
+  background: var(--blue-brand-color);
+}
+.publicity-button-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--back-color);
+}
+.publicity-button:hover {
+  background: var(--order-but-color);
+  cursor: pointer;
+}
+
 /* work-type */
 .work {
   background: var(--back-color);
@@ -120,6 +136,12 @@ background: var(--foot-color);
 
   color: var(--blue-brand-color);
 }
+.caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--black-brand-color);
+}
 .button-text:hover {
   color: var(--back-color);
 }
@@ -161,6 +183,7 @@ background: var(--foot-color);
   line-height: 1.16;
 
   color: var(--blue-brand-color);
+  text-decoration: none;
 }
 .white-logo {
   font-family: "Raleway";
