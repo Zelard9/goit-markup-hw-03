@@ -17,12 +17,47 @@
 }
 /* Header */
 .page-header {
-  height: 80px;
+  
   background: var(--header-back-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+}
+.header-item:hover,
+.header-item:focus {
+  color: var(--black-brand-color);
+}
+.header-link{
+  text-decoration: none;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--black-brand-color);
+}
+.header-link:hover{
+  color: var(--order-but-color);
+}
+.mail-info{
+  text-decoration: none;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+.contact-info{
+  text-decoration: none;
+  text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+.header-list{
+  list-style-type: none;
+}
+.header-item:hover{
+  color: var(--order-but-color);
 }
 .logo {
   width: 44px;
@@ -49,9 +84,9 @@
   color: var(--blue-brand-color);
   text-decoration: none;
 }
-.header-item:hover,
-.header-item:focus {
-  color: var(--black-brand-color);
+
+.info-list{
+  list-style-type: none;
 }
 .contact-info {
   font-weight: 400;
@@ -59,8 +94,17 @@
   line-height: 1.5;
   color: var(--text-color);
 }
-.contact-info:hover {
+.mail-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+.mail-info:hover {
   color: var(--blue-brand-color);
+}
+.a{
+  text-decoration: none;
 }
 .publicity-sec {
   height: 600px;
@@ -88,10 +132,25 @@
   background: var(--order-but-color);
   cursor: pointer;
 }
+.header-list{
+  list-style-type: none;
+}
+.info-list{
+  list-style-type: none;
+}
+.example-list{
+  list-style-type: none;
+}
+.caption-list{
+    list-style-type: none;
+}
 
 /* work-type */
 .work {
   background: var(--back-color);
+}
+.work-list{
+  list-style-type: none;
 }
 .first-button {
   width: 73px;
@@ -145,7 +204,9 @@
 .button-text:hover {
   color: var(--back-color);
 }
-
+.examples-list{
+  list-style-type: none;
+}
 .example {
   width: 360px;
   height: 420px;
@@ -169,9 +230,10 @@
 
   color: var(--text-color);
 }
+
 /*footer*/
 .foot {
-  height: 252px;
+  
 
   background: var(--foot-color);
 }
