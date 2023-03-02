@@ -9,56 +9,66 @@
   --foot-text-color: #e7e9fc;
   --order-but-color: #404bbf;
 }
+
 .page-body {
   background: var(--back-color);
   font-family: sans-serif;
   font-family: "Roboto";
   font-style: normal;
 }
+
 /* Header */
 .page-header {
-  
+
   background: var(--header-back-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
+
 .header-item:hover,
 .header-item:focus {
   color: var(--black-brand-color);
 }
-.header-link{
+
+.header-link {
   text-decoration: none;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--black-brand-color);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--black-brand-color);
 }
-.header-link:hover{
+
+.header-link:hover {
   color: var(--order-but-color);
 }
-.mail-info{
+
+.mail-info {
   text-decoration: none;
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
 }
-.contact-info{
+
+.contact-info {
   text-decoration: none;
   text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
 }
-.header-list{
+
+.header-list {
   list-style-type: none;
 }
-.header-item:hover{
+
+.header-item:hover {
   color: var(--order-but-color);
 }
+
 .logo {
   width: 44px;
   height: 24px;
@@ -72,6 +82,7 @@
 
   text-decoration: none;
 }
+
 .blue-logo {
   width: 44px;
   height: 24px;
@@ -85,31 +96,37 @@
   text-decoration: none;
 }
 
-.info-list{
+.info-list {
   list-style-type: none;
 }
+
 .contact-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
 }
+
 .mail-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
 }
+
 .mail-info:hover {
   color: var(--blue-brand-color);
 }
-.a{
+
+.a {
   text-decoration: none;
 }
+
 .publicity-sec {
   height: 600px;
   background: var(--foot-color);
 }
+
 .publicity-text {
   font-weight: 700;
   font-size: 56px;
@@ -117,76 +134,91 @@
   color: var(--back-color);
   text-align: center;
 }
+
 .publicity-button {
   width: 169px;
   height: 56px;
   background: var(--blue-brand-color);
 }
+
 .publicity-button-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--back-color);
 }
+
 .publicity-button:hover {
   background: var(--order-but-color);
   cursor: pointer;
 }
-.header-list{
+
+.header-list {
   list-style-type: none;
 }
-.info-list{
+
+.info-list {
   list-style-type: none;
 }
-.example-list{
+
+.example-list {
   list-style-type: none;
 }
-.caption-list{
-    list-style-type: none;
+
+.caption-list {
+  list-style-type: none;
 }
 
 /* work-type */
 .work {
   background: var(--back-color);
 }
-.work-list{
+
+.work-list {
   list-style-type: none;
 }
+
 .first-button {
   width: 73px;
   height: 38px;
   color: var(--white-brand-color);
   cursor: pointer;
 }
+
 .second-button {
   width: 125px;
   height: 38px;
   color: var(--white-brand-color);
   cursor: pointer;
 }
+
 .third-button {
   width: 112px;
   height: 38px;
   color: var(--white-brand-color);
   cursor: pointer;
 }
+
 .fourth-button {
   width: 103px;
   height: 38px;
   color: var(--white-brand-color);
   cursor: pointer;
 }
+
 .fifth-button {
   width: 130px;
   height: 38px;
   color: var(--white-brand-color);
   cursor: pointer;
 }
+
 .first-button:hover {
   width: 73px;
   height: 38px;
   color: var(--blue-brand-color);
 }
+
 .button-text {
   font-weight: 500;
   font-size: 16px;
@@ -195,27 +227,33 @@
 
   color: var(--blue-brand-color);
 }
+
 .caption {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--black-brand-color);
 }
+
 .button-text:hover {
   color: var(--back-color);
 }
-.examples-list{
+
+.examples-list {
   list-style-type: none;
 }
+
 .example {
   width: 360px;
   height: 420px;
   background: var(--back-color);
 }
+
 .photo-type {
   width: 360px;
   height: 300px;
 }
+
 .example-name {
   font-weight: 500;
   font-size: 20px;
@@ -223,6 +261,7 @@
 
   color: var(--black-brand-color);
 }
+
 .example-type {
   font-weight: 400;
   font-size: 16px;
@@ -233,10 +272,11 @@
 
 /*footer*/
 .foot {
-  
+
 
   background: var(--foot-color);
 }
+
 .foot-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -247,6 +287,7 @@
   color: var(--blue-brand-color);
   text-decoration: none;
 }
+
 .white-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -255,6 +296,7 @@
   line-height: 1.16;
   color: var(--white-brand-color);
 }
+
 .location {
   font-weight: 400;
   font-size: 16px;
