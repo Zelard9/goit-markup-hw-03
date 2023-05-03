@@ -181,7 +181,7 @@ ul {
   line-height: 1.07;
   color: var(--back-color);
   text-align: center;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
 }
 
 .publicity-button {
@@ -192,7 +192,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--back-color);
@@ -213,7 +213,7 @@ ul {
 .example-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-brand-color);
   text-align: center;
@@ -222,7 +222,7 @@ ul {
 .example-type {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
@@ -238,7 +238,7 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   color: var(--black-brand-color);
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -263,7 +263,7 @@ ul {
 .work-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
