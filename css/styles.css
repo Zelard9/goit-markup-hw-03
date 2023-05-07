@@ -246,6 +246,9 @@ ul {
 .example-list {
   list-style-type: none;
 }
+.caption-sec{
+  background-color: var(--back-color);
+}
 .caption {
   font-weight: 700;
   font-size: 36px;
@@ -263,7 +266,7 @@ ul {
 }
 
 /* work-type */
-.work {
+.work-sec {
   background: var(--back-color);
 }
 
