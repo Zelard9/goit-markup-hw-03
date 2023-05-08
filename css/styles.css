@@ -69,7 +69,7 @@ ul {
   color: var(--text-color);
 }
 .mail-info:hover,
-.mail-info:focus{
+.mail-info:focus {
   color: var(--order-but-color);
 }
 
@@ -82,7 +82,7 @@ ul {
   color: var(--text-color);
 }
 .contact-info:hover,
-.contact-info:focus{
+.contact-info:focus {
   color: var(--order-but-color);
 }
 
@@ -111,21 +111,19 @@ ul {
   text-transform: uppercase;
   color: var(--blue-brand-color);
   text-decoration: none;
-
-  
 }
 
 .black-logo {
   width: 44px;
-    height: 24px;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--black-brand-color);
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-brand-color);
 }
 .link {
   text-decoration: none;
@@ -156,7 +154,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
- 
+
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--text-color);
@@ -167,18 +165,18 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  
+
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: var(--text-color);
 }
 
-.mail-info:hover ,
- .mail-info:focus {
+.mail-info:hover,
+.mail-info:focus {
   color: var(--order-but-color);
 }
-.contact-info:hover ,
- .contact-info:focus {
+.contact-info:hover,
+.contact-info:focus {
   color: var(--order-but-color);
 }
 .a {
@@ -203,7 +201,7 @@ ul {
   width: 169px;
   height: 56px;
   background: var(--blue-brand-color);
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -214,8 +212,7 @@ ul {
 }
 
 .publicity-button:hover,
-.publicity-button:focus
- {
+.publicity-button:focus {
   background: var(--order-but-color);
   cursor: pointer;
 }
@@ -246,7 +243,7 @@ ul {
 .example-list {
   list-style-type: none;
 }
-.caption-sec{
+.caption-sec {
   background-color: var(--back-color);
 }
 .caption {
@@ -254,7 +251,7 @@ ul {
   font-size: 36px;
   line-height: 1.2;
   color: var(--black-brand-color);
-  letter-spacing:0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -277,6 +274,7 @@ ul {
   background-color: var(--white-brand-color);
 }
 .work-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -363,7 +361,7 @@ ul {
 .example-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.14;
+  line-height: 1.12;
   letter-spacing: 0.02em;
   color: var(--black-brand-color);
 }
