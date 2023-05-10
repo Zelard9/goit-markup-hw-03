@@ -27,7 +27,7 @@ ul {
 .page-body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background: var(--text-color);
+  background: var(--back-color);
   color: var(--text-color);
 }
 
@@ -285,15 +285,11 @@ ul {
   background-color: var(--white-brand-color);
   cursor: pointer;
 }
-.work-button:hover {
-  color: var(--back-color);
-  background-color: var(--order-but-color);
-}
+.work-button:hover,
 .work-button:focus {
   color: var(--back-color);
   background-color: var(--order-but-color);
 }
-
 /*.second-button {
   width: 125px;
   height: 38px;
