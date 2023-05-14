@@ -27,13 +27,13 @@ ul {
 .page-body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background: var(--back-color);
+  background-color: var(--back-color);
   color: var(--text-color);
 }
 
 /* Header */
 .page-header {
-  background: var(--header-back-color);
+  background-color: var(--header-back-color);
 
   font-weight: 500;
   font-size: 16px;
@@ -42,10 +42,19 @@ ul {
 .nav-conteiner {
   display: flex;
 }
-
+.header-list {
+  list-style: none;
+}
+.header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--black-brand-color);
+}
 .header-item:hover,
 .header-item:focus {
-  color: var(--black-brand-color);
+  color: var(--order-but-color);
 }
 
 .header-link {
@@ -74,7 +83,6 @@ ul {
 }
 
 .contact-info {
-  text-decoration: none;
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -136,14 +144,15 @@ ul {
   font-style: normal;
 }
 .header-link {
-  color: var(--text-color);
+  color: var(--black-brand-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 
   letter-spacing: 0.02em;
 }
-.header-link:hover .header-link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--order-but-color);
 }
 .info {
@@ -185,7 +194,7 @@ ul {
 
 .publicity-sec {
   height: 600px;
-  background: var(--black-brand-color);
+  background-color: var(--black-brand-color);
 }
 
 .publicity-text {
@@ -200,8 +209,8 @@ ul {
 .publicity-button {
   width: 169px;
   height: 56px;
-  background: var(--blue-brand-color);
-  font-family: "Roboto", sans-serif;
+  background-color: var(--blue-brand-color);
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -213,7 +222,7 @@ ul {
 
 .publicity-button:hover,
 .publicity-button:focus {
-  background: var(--order-but-color);
+  background-color: var(--order-but-color);
   cursor: pointer;
 }
 
@@ -243,10 +252,7 @@ ul {
 .example-list {
   list-style-type: none;
 }
-.caption-sec {
-  background-color: var(--back-color);
-}
-.caption {
+.work-text {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -255,16 +261,29 @@ ul {
   text-align: center;
   text-transform: capitalize;
 }
+.caption-sec {
+  background-color: var(--back-color);
+}
+.caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--black-brand-color);
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
 .caption-list {
   list-style-type: none;
 }
+
 .example-item {
   background-color: var(--back-color);
 }
 
 /* work-type */
 .work-sec {
-  background: var(--back-color);
+  background-color: var(--back-color);
 }
 
 .work-list {
@@ -357,7 +376,7 @@ ul {
 .example-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.12;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-brand-color);
 }
@@ -372,7 +391,7 @@ ul {
 
 /*footer*/
 .foot {
-  background: var(--foot-color);
+  background-color: var(--foot-color);
 }
 
 .foot-logo {
