@@ -144,14 +144,16 @@ ul {
   font-style: normal;
 }
 .header-link {
-  color: var(--black-brand-color);
+  color: var(--foot-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 }
-.header-link:hover,
+.header-link:hover {
+  color: var(--order-but-color);
+}
 .header-link:focus {
   color: var(--order-but-color);
 }
@@ -180,11 +182,15 @@ ul {
   color: var(--text-color);
 }
 
-.mail-info:hover,
+.mail-info:hover{
+  color: var(--order-but-color);
+}
 .mail-info:focus {
   color: var(--order-but-color);
 }
-.contact-info:hover,
+.contact-info:hover{
+  color: var(--order-but-color);
+}
 .contact-info:focus {
   color: var(--order-but-color);
 }
@@ -232,7 +238,7 @@ ul {
 .example-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.2;;
   letter-spacing: 0.02em;
   color: var(--black-brand-color);
   text-align: center;
