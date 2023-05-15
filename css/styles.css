@@ -160,7 +160,7 @@ ul {
 .info {
   font-style: normal;
 }
-.contact-info {
+.inform {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -171,27 +171,10 @@ ul {
   color: var(--text-color);
 }
 
-.mail-info {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  color: var(--text-color);
-}
-
-.mail-info:hover{
+.inform:hover {
   color: var(--order-but-color);
 }
-.mail-info:focus {
-  color: var(--order-but-color);
-}
-.contact-info:hover{
-  color: var(--order-but-color);
-}
-.contact-info:focus {
+.inform:focus {
   color: var(--order-but-color);
 }
 .a {
@@ -199,7 +182,6 @@ ul {
 }
 
 .publicity-sec {
-  height: 600px;
   background-color: var(--black-brand-color);
 }
 
@@ -216,7 +198,7 @@ ul {
   width: 169px;
   height: 56px;
   background-color: var(--blue-brand-color);
-
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -238,7 +220,7 @@ ul {
 .example-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-brand-color);
   text-align: center;
