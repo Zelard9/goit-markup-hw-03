@@ -70,29 +70,6 @@ ul {
   color: var(--order-but-color);
 }
 
-.mail-info {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--text-color);
-}
-.mail-info:hover,
-.mail-info:focus {
-  color: var(--order-but-color);
-}
-
-.contact-info {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--text-color);
-}
-.contact-info:hover,
-.contact-info:focus {
-  color: var(--order-but-color);
-}
 
 .header-list {
   list-style-type: none;
