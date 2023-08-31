@@ -33,7 +33,7 @@ display: block;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline:solid 2px red;
+  
 
   
 }
@@ -149,7 +149,7 @@ display: block;
  align-items: center;
   list-style-type: none;
   
-  outline: solid 2px red;
+  
   
 }
 
@@ -395,7 +395,7 @@ align-items: center;
   height: 300px;
 }
 .resume-container{
-  outline: solid 2px red;
+ 
   text-align: center;
 }
 .resume-text-container{
