@@ -20,10 +20,23 @@ h6 {
 p {
   margin: 0;
 }
-ul {
+ul , ol {
   margin: 0;
+  padding-left: 0;
 }
+img {
+display: block;
+}
+.container{
+  width: 100%;
+  max-width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline:solid 2px red;
 
+  
+}
 .page-body {
   font-family: "Roboto", sans-serif;
   
@@ -32,9 +45,42 @@ ul {
 }
 
 /* Header */
+.header-container{
+  display: flex;
+  align-content: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.page-header{
+  display: flex;
+  align-items: center;
+  
+}
+.nav-container{
+   display: flex;
+   flex-grow:1;
+   align-items: center;
+   
+}
+.logo-container{
+  margin-right: 77px;
+}
+.items-container{
+  display: flex;
+   
+}
+.info-container{
+   display: flex;
+    align-items: center;
+   
+   
+}
 
 .header-list {
+  display: flex;
+  gap: 40px;
   list-style: none;
+ 
 }
 .header-item {
   font-weight: 500;
@@ -98,15 +144,23 @@ ul {
   list-style: none;
 }
 .info-list {
+  display: flex;
+ gap:40px;
+ align-items: center;
   list-style-type: none;
-  font-style: normal;
+  
+  outline: solid 2px red;
+  
 }
 
 .info {
+   margin-left: auto;
   font-style: normal;
+  
 }
 .inform {
 
+ 
   font-size: 16px;
 
   letter-spacing: 0.02em;
@@ -123,9 +177,19 @@ ul {
 .a {
   text-decoration: none;
 }
-
+/*MAIN*/
+.section{
+  padding-top: 123px;
+  padding-bottom: 120px;
+}
 .publicity-sec {
   background-color: var(--black-brand-color);
+}
+.publicity-container{
+  padding: 188px 472px 48px 472px;
+  max-width: 496px;
+
+  
 }
 
 .publicity-text {
@@ -135,8 +199,15 @@ ul {
   color: var(--back-color);
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  
 }
+.button-container{
+  display: flex;
+  align-items: center;
+  padding-bottom: 185px;
 
+}
 .publicity-button {
  
   background-color: var(--blue-brand-color);
@@ -145,9 +216,41 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  
+  align-items: center;
   letter-spacing: 0.04em;
   color: var(--back-color);
+  padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.work-button-container{
+  display: flex;
+  gap:24px;
+  justify-content: center;
+ 
+  max-width: 1440px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.work-button{
+  padding: 12px 24px ;
+  margin-left: auto;
+  margin-right: auto;
+ border-radius: 12%;
+ border-color: var(--foot-text-color);
+}
+.work-container{
+display: flex;
+justify-content:center;
+flex-wrap: wrap;
+gap: 24px;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
 }
 
 .publicity-button:hover,
@@ -158,6 +261,17 @@ ul {
 
 .header-list {
   list-style-type: none;
+}
+.link-container{
+  max-width: 360px;
+  /* padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px; */
+  /* border: solid 1px var(--foot-text-color); */
+}
+.text-container{
+  border: solid 1px var(--foot-text-color);
+  border-top: none;
 }
 .example-name {
   font-weight: 500;
@@ -179,7 +293,12 @@ ul {
 }
 
 .example-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  gap:24px;
   list-style-type: none;
+
 }
 .work-text {
   font-weight: 700;
@@ -201,18 +320,39 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+
+  margin-bottom: 72px;
+}
+.team-caption{
+  padding-top: 120px;
 }
 .caption-list {
+  display: flex;
+  gap: 24px;
   list-style-type: none;
+  justify-content: space-between;
+  /* margin-top: 105px;
+  margin-bottom: 120px; */
 }
-
+.example-list{
+  margin-top: 72px;
+  padding-bottom: 120px;
+  justify-content: space-between;
+}
 .example-item {
   background-color: var(--back-color);
+}
+.text-container{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 /* work-type */
 .work-sec {
   background-color: var(--back-color);
+  /* padding-top: 123px;
+  padding-bottom: 120px; */
 }
 
 .work-list {
@@ -239,6 +379,7 @@ ul {
   background-color: var(--order-but-color);
 }
 
+
 .examples-list {
   list-style-type: none;
 }
@@ -253,13 +394,24 @@ ul {
   width: 360px;
   height: 300px;
 }
-
-
+.resume-container{
+  outline: solid 2px red;
+  text-align: center;
+}
+.resume-text-container{
+  padding: 34px 17px;
+}
 
 
 /*footer*/
 .foot {
   background-color: var(--foot-color);
+}
+.foot-container{
+  width: 100%;
+  max-width: 264px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .foot-logo {
