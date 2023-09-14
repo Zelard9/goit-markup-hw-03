@@ -31,6 +31,7 @@ img {
 .container {
   width: 100%;
   max-width: 1470px;
+  width: 1158px; 
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -44,6 +45,8 @@ img {
 
 /* Header */
 .header-container {
+  
+  width: 1158px;
   display: flex;
   align-content: center;
   padding-bottom: 25px;
@@ -52,6 +55,7 @@ img {
 .page-header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--foot-text-color)
 }
 .nav-container {
   display: flex;
@@ -163,6 +167,7 @@ img {
 }
 .publicity-sec {
   background-color: var(--black-brand-color);
+  padding: 188px 0;
 }
 .publicity-container {
   padding: 188px 472px 48px 472px;
@@ -170,6 +175,7 @@ img {
 }
 
 .publicity-text {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -182,11 +188,17 @@ img {
   display: flex;
   align-items: center;
   padding-bottom: 185px;
+  
 }
 .publicity-button {
+  display: block;
+  min-width: 169px ;
+  height: 56px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
   background-color: var(--blue-brand-color);
   font-family: "Roboto", sans-serif;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -196,6 +208,16 @@ img {
   padding: 16px 32px;
   margin-left: auto;
   margin-right: auto;
+}.work{
+  padding-top: 96px; 
+  padding-bottom: 120px; 
+}
+.work-sec{
+  padding: 120px 0;
+
+}
+.work-hidden-text{
+   visibility: hidden;
 }
 .work-button-container {
   display: flex;
@@ -270,6 +292,8 @@ img {
   list-style-type: none;
 }
 .work-text {
+  visibility: hidden;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -280,6 +304,7 @@ img {
 }
 .caption-sec {
   background-color: var(--back-color);
+  padding-bottom: 120px; 
 }
 .caption {
   font-weight: 700;
@@ -292,8 +317,13 @@ img {
 
   margin-bottom: 72px;
 }
+.caption-image{
+  width: calc((100% - 3 * 16px) / 3);
+
+}
 .team-caption {
   padding-top: 120px;
+  
 }
 .caption-list {
   display: flex;
@@ -325,37 +355,66 @@ img {
 }
 
 .work-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px; 
+  margin-bottom: 72px;
+
   list-style-type: none;
 }
 .team {
   background-color: var(--white-brand-color);
+  padding: 120px 0;
 }
 .work-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--blue-brand-color);
   background-color: var(--white-brand-color);
   cursor: pointer;
+  padding: 12px 24px ;
+  border: 1px solid var(--foot-text-color);
+  border-radius: 4px;
 }
 .work-button:hover,
 .work-button:focus {
+  border: 1px solid transparent ;
   color: var(--back-color);
   background-color: var(--order-but-color);
 }
 
 .examples-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+   row-gap: 48px; 
   list-style-type: none;
 }
-
+.example-item{
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.example-name{
+  text-align: center;
+  margin-bottom: 8px;
+}
+.example-type{
+  text-align: center; 
+}
 .example {
-  width: 360px;
+  width: calc((100% - 48px) / 3);
+ 
   height: 420px;
   background: var(--back-color);
+}
+.link-container{
+  padding: 32px 16px;
+  border: 1px solid var(--foot-text-color);
+  border-top: none; 
 }
 
 .photo-type {
@@ -364,6 +423,7 @@ img {
 }
 .resume-container {
   text-align: center;
+  padding: 32px 0;
 }
 .resume-text-container {
   padding: 34px 17px;
@@ -371,6 +431,7 @@ img {
 
 /*footer*/
 .foot {
+  padding: 100px 0 ;
   background-color: var(--foot-color);
 }
 .foot-container {
@@ -381,6 +442,7 @@ img {
 }
 
 .foot-logo {
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
 
   font-weight: 800;
@@ -405,6 +467,7 @@ img {
 }
 
 .location {
+  max-width: 264px ;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
