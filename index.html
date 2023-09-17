@@ -13,9 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/styles.css" />
     
@@ -81,30 +79,30 @@
 
       <section class="work-sec">
         <div class="container">
-          <h2 class="work-text" hidden>Second-Section</h2>
+          <h2 class="work-text" >Second-Section</h2>
           <ul class="example-list list">
-            <li>
+            <li class="work-sec-item">
               <h3 class="example-name">Strategy</h3>
               <p class="example-type">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="work-sec-item">
               <h3 class="example-name">Punctuality</h3>
               <p class="example-type">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="work-sec-item">
               <h3 class="example-name">Diligence</h3>
               <p class="example-type">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="work-sec-item">
               <h3 class="example-name">Technologies</h3>
               <p class="example-type">
                 Design practice focused on digital experiences. We bring forth a
@@ -216,14 +214,123 @@
           </ul>
         </div>
       </section>
+      <section class="portfolio-section">
+        <div class="container">
+        <h2 class="caption team-caption">Our Portfolio</h2>
+        <ul class="examples-list list">
+          <div class="work-container">
+          <li class="example link">
+            <a class="link">
+              <div class="link-container">
+              <img
+                src="./images/img-p1.jpg"
+                alt="photo of an open banking application"
+                width="370"
+                height="294"
+                class="photo-type"
+              />
+              <div class="text-container">
+              <h2 class="example-name">Banking App Interface Concept</h2>
+              <p class="example-type">App</p>
+            </div>
+            </a>
+          </div>
+          </li>
+          <li class="example link">
+            <a class="link">
+              <div class="link-container">
+              <img
+                src="./images/img-p2.jpg"
+                alt="smartphone with QR code"
+                width="370"
+                height="294"
+                class="photo-type"
+              />
+              <div class="text-container">
+              <h2 class="example-name">Cashless Payment</h2>
+              <p class="example-type">Marketing</p>
+              </div>
+            </a>
+          </div>
+          </li>
+          <li class="example link">
+            <a class="link">
+              <div class="link-container">
+              <img
+                src="./images/img-p3.jpg"
+                alt="Photo of an open application on a laptop and smartphone"
+                width="370"
+                height="294"
+                class="photo-type"
+              />
+              <div class="text-container">
+              <h2 class="example-name">Meditation App</h2>
+              <p class="example-type">App</p>
+            </div>
+            </a>
+          </div>
+          </li>
+          <li class="example link">
+            <a class="link">
+              <div class="link-container">
+              <img
+                src="./images/img-p4.jpg"
+                alt="photo of the car interior"
+                width="370"
+                height="294"
+                class="photo-type"
+              />
+              <div class="text-container">
+              <h2 class="example-name">Taxi Service</h2>
+              <p class="example-type">Marketing</p>
+            </div>
+            </a>
+          </div>
+          </li>
+          <li class="example link">
+            <a class="link">
+              <div class="link-container">
+              <img
+                src="./images/img-p5.jpg"
+                alt="image of the main screen on the smartphone"
+                width="370"
+                height="294"
+                class="photo-type"
+              />
+              <div class="text-container">
+              <h2 class="example-name">Screen Illustrations</h2>
+              <p class="example-type">Design</p>
+            </div>
+            </a>
+          </div>
+          </li>
+          <li class="example link">
+            <a class="link">
+              <div class="link-container">
+              <img
+                src="./images/img-p6.jpg"
+                alt="girl in headphones"
+                width="370"
+                height="294"
+                class="photo-type"
+              />
+              <div class="text-container">
+              <h2 class="example-name">Online Courses</h2>
+              <p class="example-type">Marketing</p>
+            </div>
+            </a>
+          </div>
+          </li>
+        </div>
+      </section>
     </main>
 
     <footer class="foot">
       <div class="container">
         <div class="foot-container">
-          <a href="/" class="foot-logo link"
-            >Web<span class="white-logo link">Studio</span></a
-          >
+          <a href="/" class="foot-logo link">
+            Web<span class="white-logo link">Studio</span></a>
+          
 
           <p class="location">
             Increase the flow of customers and sales for your business with
