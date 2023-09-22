@@ -144,6 +144,9 @@ img {
   margin-left: auto;
   font-style: normal;
 }
+.info-list {
+  list-style-type: none;
+}
 .inform {
   font-size: 16px;
 
@@ -174,11 +177,12 @@ img {
   /* padding: 188px 472px 48px 472px; */
   /* max-width: 496px; */
   max-width: 1128px;
-  padding: 65px 330px 0 330px;
+  padding: 65px 316px 0 316px;
 }
 
 .publicity-text {
   max-width: 496px;
+  width: 100%;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -220,6 +224,10 @@ img {
 }
 .work-hidden-text {
   visibility: hidden;
+}
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
 }
 .work-button-container {
   display: flex;
@@ -273,32 +281,9 @@ img {
    border: solid 1px var(--foot-text-color); */
 }
 
-.example-name {
-  margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--black-brand-color);
-}
-.example-type {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-.info-list {
-  list-style-type: none;
-}
 
-.example-list {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
-  gap: 24px;
-  list-style-type: none;
-}
+
+
 .work-sec-item {
   width: calc((100% - 72px) / 4);
 }
@@ -342,11 +327,7 @@ img {
   margin-bottom: 120px; */
 }
 
-.example-item {
-  background-color: var(--back-color);
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-}
+
 
 /* work-type */
 .work-sec {
@@ -394,6 +375,9 @@ img {
 }
 
 .example-list {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-top: 72px;
   padding-bottom: 120px;
   justify-content: space-between;
@@ -404,7 +388,8 @@ img {
   list-style-type: none;
 }
 .example-item {
-  width: calc((100% - 3 * 24px) / 4);
+  background-color: var(--back-color);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -424,6 +409,32 @@ img {
   width: 264px;
   height: 260px;
 }
+.example-name {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--black-brand-color);
+}
+.example-type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* .example-list {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+} */
+
+
+
 .resume-container {
   text-align: center;
   padding: 32px 0;
