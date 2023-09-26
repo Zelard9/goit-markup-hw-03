@@ -49,8 +49,7 @@ img {
   width: 1158px;
   display: flex;
   align-content: center;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  
 }
 .page-header {
   display: flex;
@@ -222,9 +221,7 @@ img {
 .work-sec {
   padding: 120px 0;
 }
-.work-hidden-text {
-  visibility: hidden;
-}
+
 .visually-hidden {
   position: absolute;
    width: 1px;
