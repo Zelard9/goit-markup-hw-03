@@ -61,12 +61,7 @@ img {
   flex-grow: 1;
   align-items: center;
 }
-.logo-container {
-  margin-right: 76px;
-}
-.items-container {
-  display: flex;
-}
+
 .info-container {
   display: flex;
   align-items: center;
@@ -121,10 +116,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--blue-brand-color);
+ 
 }
 
 .black-logo {
   color: var(--black-brand-color);
+  margin-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -144,6 +141,8 @@ img {
   font-style: normal;
 }
 .info-list {
+  display: flex;
+  gap: 40px;
   list-style-type: none;
 }
 .inform {
@@ -282,13 +281,6 @@ img {
 .header-list {
   list-style-type: none;
 }
-.link-container {
-  /* max-width: 360px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px; 
-   border: solid 1px var(--foot-text-color); */
-}
 
 
 
@@ -389,6 +381,7 @@ img {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
   column-gap: 24px;
   row-gap: 48px;
   list-style-type: none;
