@@ -415,6 +415,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-brand-color);
+  text-align: center;
 }
 .example-type {
   font-size: 16px;
